@@ -1,0 +1,200 @@
+/* Universal styling */
+
+html{
+    font-size: 16px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: rgb(34, 34, 34);
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content h3 {
+    margin: 1.5rem 0;
+}
+
+/* Nav styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: maroon;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    height: 100%;
+    font-size: 1.25rem;
+}
+
+nav li:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+/* Banner styling */
+
+#banner {
+    display: flex;
+    background-image: url(../images/pexels-thevibrantmachine-3066868.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 30rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#cta {
+    padding: 2.5rem 5rem 2.5rem 2.5rem;
+    border: 2px solid rgb(97, 3, 3);
+    border-radius: .25rem;
+    background-color: maroon;
+    color: white;
+    position: relative;
+    left: 10%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#cta h2 {
+    color: white;
+}
+
+#cta p {
+    font-size: 2rem;
+}
+
+#cta .button {
+    padding: 1rem 1.5rem;
+    margin-top: 3rem;
+    color: maroon;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+/* featured styling */
+
+#featured {
+    background-color: lightgray;
+    padding: 2.5rem 2rem 6rem;
+}
+
+#featured h3 {
+    color: maroon;
+}
+
+#featured p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.candlerow {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.candlerow li {
+    background-color: white;
+    padding: 2.5rem 2rem;
+    margin: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0.75rem 0.75rem 0 darkgray;
+}
+
+.image-container {
+    overflow: hidden;
+    height: 25rem;
+    width: 23rem;
+    border-radius: 0.25rem;
+}
+
+.image-container img{
+    height: 100%;
+}
+
+/* location styling */
+
+#locations {
+    padding: 2.5rem 2rem 10rem;
+}
+
+.locationrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.locationrow li {
+    background-color: lightgray;
+    border-radius: 0.25rem;
+    box-shadow: 0.75rem 0.75rem 0 darkgray;
+    overflow: hidden;
+    width: 45rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locationrow .content {
+    margin-left: 2rem;
+}
+
+.map {
+    overflow: hidden;
+    height: 25rem;
+    width: 23rem;
+    float: right;
+}
+
+.map img {
+    height: 100%
+}
+
+.locationrow h3 {
+    color: maroon;
+}
+
+.locationrow p {
+    font-size: 1.5rem;
+}
+
+/* footer styling */
+
+footer {
+    background-color: maroon;
+    color: white;
+    padding: 2.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
